@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'coc';
+    src: url(clash-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(Fontspring-DEMO-proximanova-bold.otf);
+}
+
+body{
+    margin: 0;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(237, 154, 0);
+    font-family: 'regular';
+    position: fixed;
+    
+}
+.other{
+    margin-left: 30px;
+    padding-top: 1px;
+}
+.facebook{
+   
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 144px;
+    
+
+}
+.insta{
+    margin-left: 176px;
+    margin-top: -43px;
+}
+.youtube {
+    margin-left: 206px;
+    margin-top: -27px;
+    transition: .2s;
+   
+youtube:hover{
+    transform: scale(1.1);
+}
+}
+.twitch{
+    margin-left: 236px;
+    margin-top: -27px;
+}
+.wikia{
+    margin-left: 266px;
+    margin-top: -27px;
+}
+.twitter{
+    margin-left: 295px;
+    margin-top: -28px;
+
+}
+.reddit{
+    margin-left: 335px;
+    margin-top: -27px;
+}
+.english{
+    margin-left: 1200px;
+    margin-top: -47px;
+
+}
+.center{
+    margin-top: -54px;
+    margin-left: 511px;
+}
+.wizard{
+    margin: 0   ;
+    height: 390px;
+}
+.balancep{
+    margin-left: 227px;
+    margin-top: 41px;
+
+}
+
+.balp{
+    border-radius: 3%;
+    height: 220px;
+    width: 393px;
+    ;
+}
+
+.release{
+    margin-top: -217px;
+    margin-left: 637px;
+    font-family: 'regular2';
+    font-weight: bold;
+}
+.balblack{
+    font-family: 'coc';
+    margin-left: 637px;
+    margin-top: -22px;
+    color: rgb(48, 48, 48);
+}
+.registraion{
+    margin-left: 228px;
+    margin-top: 122px;
+}
+
+.signup{
+    margin-top: -224px;
+    margin-left: 663px;
+}
+
+.blue1{
+    width: 393px;
+    background-color: blue;
+    height: 30px;
+    margin-left: 228px;
+    margin-top: -26px;
+
+}
+.blue2{
+    width: 393px;
+    background-color: blue;
+    height: 48px;
+    margin-left: 663px;
+    margin-top: -66px;
+
+}
+.regE{
+    color: rgb(231, 231, 231);
+    font-family: 'regular2';
+    font-weight: bold;
+    font-size: 17px;
+        padding-left: 21px;
+    padding-top: 6px;
+
+}
+.regE2{
+    color: rgb(231, 231, 231);
+    font-family: 'regular2';
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 26px;
+    padding-left: 29px;
+}
+.regtext{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 393px;
+    margin-left: 228px;
+    border-radius: 4px;
+    margin-top: -21px;
+}
+.signtext{
+    background-color: rgb(255, 255, 255);
+    height: 132px;
+    width: 393px;
+    margin-left: 663px;
+    border-radius: 4px;
+    margin-top: -121px;
+}
+.regcoc{
+    
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 14px;
+    margin-bottom: -19px;
+}
+.signcoc{
+     
+    font-family: 'COC';
+    padding-left:18px ;
+    margin-top: 21px;
+    padding-top: 17px;
+    margin-bottom: -20px;
+
+}
+.hichief{
+    margin-left: 10px;
+}
+
+.getready{
+    margin-left: 15px;
+}
+.secondphoto{
+    height: 90px;
+  
+}
+.chamdiv{
+    margin-left: 228px;
+   
+}
+.shielddiv{
+    margin-top: -224px;
+    margin-left: 663px;
+}
+
+.champea{
+    width: 393px;
+    background-color: blue;
+    height: 30px;
+    margin-left: 228px;
+    margin-top: -26px;
+}
+.champeatext{
+    color: rgb(231, 231, 231);
+    font-family: 'regular2';
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 21px;
+    padding-top: 6px;
+
+}
+.shieldea2{
+    width: 393px;
+    background-color: rgb(179, 129, 35);
+    height: 48px;
+    margin-left: 663px;
+    margin-top: -66px;
+}
+.champeatext2{
+    color: rgb(231, 231, 231);
+    font-family: 'regular2';
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 26px;
+    padding-left: 29px;
+}
+.champwhite{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 393px;
+    margin-left: 228px;
+    border-radius: 4px;
+    margin-top: -21px;
+}
+.champtext{
+
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 14px;
+    margin-bottom: -19px;
+    font-size: 15PX;
+}
+.shieldwhite{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 393px;
+    margin-left: 663px;
+    border-radius: 4px;
+    margin-top: -113px;
+    
+}
+.shieldtext{
+
+    font-family: 'coc';
+    padding-left: 2px;
+    margin-top: 17px;
+    padding-top: 16px;
+    margin-bottom: -18px;
+
+} 
+.thirdphoto{
+    height: 70px;
+    margin-top: 10px;
+}
+.allphoto{
+
+    border-radius: 3%;
+    height: 220px;
+    width: 393px;
+}
+.hogdiv{
+margin-left: 228px;
+}
+.wardendiv{
+    margin-top: -224px;
+    margin-left: 663px;
+}
+.hogea{
+    width: 393px;
+    background-color:rgb(6, 102, 6);
+    height: 30px;
+    margin-left: 228px;
+    margin-top: -25px;
+}
+.wardenea{
+    width: 393px;
+    background-color: rgb(179, 129, 35);
+    height: 48px;
+    margin-left: 663px;
+    margin-top: -65px;
+}
+.hogwhite{
+  
+    height: 111px;
+    background-color: whitesmoke;
+    width: 393px;
+    margin-left: 228px;
+    border-radius: 4px;
+    margin-top: -19px;
+   
+}
+.wardenwhite{
+   
+    height: 80px;
+    background-color: whitesmoke;
+    width: 393px;
+    margin-left: 663px;
+    border-radius: 4px;
+    margin-top: -122px;
+}
+.hogtext{
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 14px;
+    margin-bottom: -19px;
+    font-size: 15PX;
+    
+}
+.wardentext{
+
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 14px;
+    margin-bottom: -19px;
+    font-size: 15PX;
+}
+.hogclantext{
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 14px;
+    margin-bottom: -19px;
+    font-size: 15PX;
+
+}
+.wardenclantext{
+    font-family: 'COC';
+    padding-left: 10px;
+    padding-top: 11px;
+    margin-bottom: -19px;
+    font-size: 15PX;
+    PADDING-BOTTOM: 3px;
+
+}
+.viewdiv{
+    height: 165px;
+    background-color: white;
+}
+.bview{
+    font-family: 'coc';
+    font-size: 26px;
+    margin-left: 551px;
+    margin-top: 59px;
+    padding-bottom: 4px;
+    padding-top: 7px;
+    background-color: rgb(237, 154, 0);
+    border-radius: 11px;
+    color: white;
+}
+.final{
+    height: 230px;
+    background-color: black;
+}
+.aline{
+margin-left: 120px;
+padding-top: 25px;
+display: flex;
+}
+.alinesupprot{
+    color: white;
+}
+.aline a{
+    margin-left: 19px;
+    text-decoration: none;
+    font-family: 'text';
+    font-size: 14px;
+}
+.applealine{
+
+    width: 125px;
+    height: 37px;
+    margin-left: 393px;
+}
+.gplay{
+
+    
+    width: 125px;
+    height: 37px;
+    margin-left: 20px;
+
+}
+.supercell{
+    color: rgb(121, 121, 121);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10p;
+    
+}
+.scandfan{
+    font-family: 'text';
+    margin-top: 60px;
+    margin-left: 140px;
+}
+.footer{
+    width: 21px;
+    height: 27px;
+    margin-left: 10px;
+    
+}
+.footerdiv{
+    margin-left: 751px;
+    
+}
